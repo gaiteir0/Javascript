@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do JavaScript</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">História do JavaScript</h1>
+        
+        <nav class="text-center mt-4">
+            <a href="#" class="btn btn-primary m-2 btn-lg" id="js-history">História do JavaScript</a>
+            <a href="#" class="btn btn-primary m-2 btn-lg" id="relation-html-css">Relação com HTML e CSS</a>
+            <a href="#" class="btn btn-primary m-2 btn-lg" id="relation-php">Relação com PHP</a>
+        </nav>
+
+        <div class="overlay" id="overlay"></div>
+
+        <div class="popup" id="popup-js-history">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">História do JavaScript</h5>
+                    <p class="card-text">JavaScript foi criado por Brendan Eich em 1995, inicialmente como uma linguagem de script para o navegador Netscape. A intenção era permitir que os desenvolvedores adicionassem interatividade às páginas web, que na época eram predominantemente estáticas. O primeiro nome da linguagem foi Mocha, mas logo mudou para LiveScript e, finalmente, JavaScript, o que ajudou a associá-la ao popular Java na época, mesmo que as duas linguagens sejam bastante diferentes.</p>
+                    <p class="card-text">Desde sua criação, JavaScript evoluiu significativamente. Em 1997, o padrão ECMAScript foi introduzido para padronizar a linguagem, levando a versões subsequentes que trouxeram novos recursos e funcionalidades. Hoje, JavaScript é essencial em quase todas as páginas da web, permitindo não apenas a interatividade básica, mas também o desenvolvimento de aplicações complexas usando frameworks como React, Angular e Vue.js, bem como o uso de Node.js para desenvolvimento no lado do servidor.</p>
+                    <button class="btn btn-secondary" onclick="closePopup()">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-relation-html-css">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Relação com HTML e CSS</h5>
+                    <p class="card-text">JavaScript, HTML e CSS formam a tríade fundamental do desenvolvimento web. HTML (HyperText Markup Language) é responsável pela estrutura e pelo conteúdo da página, enquanto CSS (Cascading Style Sheets) cuida da apresentação visual. JavaScript se destaca ao adicionar comportamento e interatividade, permitindo que a experiência do usuário seja dinâmica e envolvente.</p>
+                    <p class="card-text">Por exemplo, JavaScript pode ser usado para validar formulários em tempo real, criar animações fluidas, manipular o DOM para atualizar o conteúdo sem recarregar a página e responder a eventos do usuário, como cliques e movimentos do mouse. Essa sinergia entre HTML, CSS e JavaScript é vital para o desenvolvimento de aplicações web modernas, pois possibilita que os desenvolvedores criem interfaces ricas e funcionais que se adaptam às necessidades do usuário.</p>
+                    <button class="btn btn-secondary" onclick="closePopup()">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-relation-php">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Relação com PHP</h5>
+                    <p class="card-text">PHP (Hypertext Preprocessor) é uma linguagem de programação do lado do servidor amplamente utilizada para criar páginas web dinâmicas. Ao contrário de JavaScript, que é executado no navegador do cliente, PHP roda no servidor, permitindo que os desenvolvedores gerem conteúdo dinâmico com base em interações do usuário ou consultas a bancos de dados.</p>
+                    <p class="card-text">A integração entre PHP e JavaScript é crucial para muitas aplicações web. PHP pode ser usado para processar dados de formulários e gerar HTML dinâmico, enquanto JavaScript pode manipular esse HTML após a página ser carregada, permitindo atualizações instantâneas sem recarregar a página. Essa combinação cria experiências de usuário mais fluidas e responsivas, essenciais em aplicações modernas que requerem interatividade, como plataformas de e-commerce, redes sociais e serviços de streaming.</p>
+                    <button class="btn btn-secondary" onclick="closePopup()">Fechar</button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 text-center">
+            <h4>Importância do JavaScript</h4>
+            <p>JavaScript é uma linguagem essencial para o desenvolvimento web moderno, destacando-se pelas seguintes razões:</p>
+            <ol class="text-left mx-auto" style="max-width: 600px;">
+                <li><strong>Interatividade</strong>: Criação de elementos dinâmicos que melhoram a experiência do usuário.</li>
+                <li><strong>Execução no Cliente</strong>: Permite interações em tempo real sem a necessidade de recarregar a página.</li>
+                <li><strong>Popularidade</strong>: Uma das linguagens mais utilizadas, com uma comunidade ativa e diversas bibliotecas e frameworks.</li>
+                <li><strong>Compatibilidade</strong>: Suportado por todos os navegadores modernos, garantindo funcionalidade em diversos dispositivos.</li>
+                <li><strong>Oportunidades de Carreira</strong>: A alta demanda por desenvolvedores proficientes em JavaScript abre portas para várias oportunidades no mercado.</li>
+            </ol>
+        </div>
+    </div>        
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
